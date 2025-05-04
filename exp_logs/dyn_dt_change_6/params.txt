@@ -1,0 +1,3 @@
+dt: 0.01
+dyn_dt_change: 0.0288
+bend: 16
