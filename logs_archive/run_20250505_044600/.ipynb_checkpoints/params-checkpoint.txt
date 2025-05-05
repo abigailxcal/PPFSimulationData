@@ -1,0 +1,15 @@
+param = (
+    app.session.param()
+    .set("fitting")
+    .set("dt", 0.0004)
+    .set("frames", 240)
+    .set("friction", 0.0)
+    .set("model-shell", "arap")
+    .set("contact-ghat", 0.4e-3) # 0.5e3  parameter controls the activation threshold of contact. Lower values increase contact density:
+    .set("strain-limit-eps", 0.06) #0.1 Make it smaller to strongly limit how much the cloth can stretch
+    .set("cg-tol", 1e-6)
+    .set("cg-max-iter",1000000)
+    .set("bend",17)
+)
+param.dyn("fitting").time(0.15).hold().change(False)
+param.dyn("dt").time(0.15).hold().change(0.033)   #since 0.032 always converges but 0.034 fails 
