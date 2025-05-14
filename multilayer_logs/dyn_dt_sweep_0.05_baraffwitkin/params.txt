@@ -1,0 +1,7 @@
+name: dyn_dt_sweep_0.05
+dt: 0.002
+dyn_dt_change: 0.05
+bend: 20
+strain-limit-eps: 0.1
+contact-ghat: 0.0007
+friction: 0.02

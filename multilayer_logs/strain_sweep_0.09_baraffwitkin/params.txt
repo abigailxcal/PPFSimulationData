@@ -1,0 +1,6 @@
+name: strain_sweep_0.09
+dt: 0.007
+dyn_dt_change: 0.04
+bend: 3
+strain-limit-eps: 0.09
+contact-ghat: 0.0004
