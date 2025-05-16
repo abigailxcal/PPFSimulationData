@@ -1,0 +1,8 @@
+name: silk
+dt: 0.003
+dyn_dt_change: 0.02
+strain-limit-eps: 0.1
+bend: 1
+area-density: 1000
+contact-ghat: 0.0004
+friction: 0.02

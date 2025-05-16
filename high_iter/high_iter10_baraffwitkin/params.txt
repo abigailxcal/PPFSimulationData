@@ -1,0 +1,7 @@
+name: high_iter10
+dt: 0.004
+dyn_dt_change: 0.04
+bend: 35
+strain-limit-eps: 0.2
+contact-ghat: 0.00023
+friction: 0.002

@@ -1,0 +1,8 @@
+name: chiffon
+dt: 0.003
+dyn_dt_change: 0.02
+strain-limit-eps: 0.15
+bend: 0.5
+area-density: 500
+contact-ghat: 0.0003
+friction: 0.005

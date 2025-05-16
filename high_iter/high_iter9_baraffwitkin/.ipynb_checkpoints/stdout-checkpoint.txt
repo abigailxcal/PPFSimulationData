@@ -1,0 +1,206 @@
+2025-05-15 02:11:55 [ppf_contact_solver] /root/ppf-contact-solver/target/release/ppf-contact-solver --path /root/.local/share/ppf-cts/batch_runner/session-0 --output /root/.local/share/ppf-cts/batch_runner/session-0/output
+* data_directory_path path = /root/.local/share/ppf-cts/batch_runner/session-0/output/data
+2025-05-15 02:11:55 [ppf_contact_solver::backend] #v = 43275, #f = 84159, #tet = 0
+2025-05-15 02:11:55 [ppf_contact_solver] cuda: detected 1 devices...
+2025-05-15 02:11:55 [ppf_contact_solver] cuda: allocating memory...
+2025-05-15 02:11:55 [ppf_contact_solver] use_thrust: false
+====== initialize ======
+> build_kinematic...3 msec
+> check_intersection...3 msec
+===== initialize: 1.357 sec =====
+====== advance ======
+* time = 0
+> build_kinematic...1 msec
+* max_u: 0
+* dt: 4.000e-03
+* playback: 1
+* max_sigma: 1.000e+00
+* avg_sigma: 1
+------ newton step 1 ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...2 msec
+   > rebuild...2 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 7 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 0
+> matrix_assembly...9 msec
+> linsolve...32 msec
+* iter: 408
+* reresid: 9.752e-07
+* max_dx: 2.738e-02
+* toi_recale: 1
+* SL_toi: 3.339e-01
+> line_search...1 msec
+* toi: 3.339e-01
+> check_intersection...1 msec
+------ error reduction step ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 6 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 0
+> matrix_assembly...7 msec
+> linsolve...29 msec
+* iter: 371
+* reresid: 9.919e-07
+* max_dx: 2.548e-02
+* toi_recale: 1
+* SL_toi: 4.955e-01
+> line_search...1 msec
+* toi: 4.955e-01
+> check_intersection...1 msec
+* toi_advanced: 3.339e-01
+* newton_steps: 1
+* final_dt: 1.336e-03
+===== advance: 87 msec =====
+====== advance ======
+* time = 0.00133572
+> build_kinematic...1 msec
+* max_u: 1.537e+01
+* dt: 4.000e-03
+* playback: 1
+* max_sigma: 1.391e+00
+* avg_sigma: 1.010e+00
+------ newton step 1 ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 6 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 0
+> matrix_assembly...7 msec
+> linsolve...59 msec
+* iter: 743
+* reresid: 9.636e-07
+* max_dx: 2.969e-02
+* toi_recale: 1
+* SL_toi: 3.071e-01
+> line_search...2 msec
+* toi: 2.495e-01
+> check_intersection...1 msec
+* toi_advanced: 2.50e-01
+------ newton step 2 ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 7 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 0
+> matrix_assembly...7 msec
+> linsolve...55 msec
+* iter: 687
+* reresid: 9.869e-07
+* max_dx: 2.858e-02
+* toi_recale: 1
+* SL_toi: 4.698e-01
+> line_search...2 msec
+* toi: 4.548e-02
+> check_intersection...1 msec
+------ error reduction step ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 7 msec =====
+* dyn_consumed: 1.000e-07
+* max_nnz_row: 1
+* num_contact: 4
+> matrix_assembly...7 msec
+> linsolve...26 msec
+* iter: 331
+* reresid: 9.917e-07
+* max_dx: 2.390e-02
+* toi_recale: 1
+* SL_toi: 4.567e-01
+> line_search...1 msec
+* toi: 2.765e-01
+> check_intersection...1 msec
+* toi_advanced: 2.837e-01
+* newton_steps: 2
+* final_dt: 1.135e-03
+===== advance: 175 msec =====
+====== advance ======
+* time = 0.00247038
+> build_kinematic...1 msec
+* max_u: 1.254e+01
+* dt: 4.000e-03
+* playback: 1
+* max_sigma: 1.398e+00
+* avg_sigma: 1.016e+00
+------ newton step 1 ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 6 msec =====
+* dyn_consumed: 1.000e-07
+* max_nnz_row: 2
+* num_contact: 1
+> matrix_assembly...7 msec
+> linsolve...57 msec
+* iter: 714
+* reresid: 9.587e-07
+* max_dx: 3.119e-02
+* toi_recale: 1
+* SL_toi: 4.545e-01
+> line_search...2 msec
+* toi: 4.545e-01
+> check_intersection...1 msec
+------ error reduction step ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 7 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 1
+> matrix_assembly...7 msec
+> linsolve...34 msec
+* iter: 434
+* reresid: 9.957e-07
+* max_dx: 3.026e-02
+* toi_recale: 1
+* SL_toi: 1.836e-01
+> line_search...1 msec
+* toi: 1.836e-01
+> check_intersection...1 msec
+* toi_advanced: 4.545e-01
+* newton_steps: 1
+* final_dt: 1.818e-03
+===== advance: 115 msec =====
+====== advance ======
+* time = 0.00428829
+> build_kinematic...1 msec
+* max_u: 1.012e+01
+* dt: 4.000e-03
+* playback: 1
+* max_sigma: 1.427e+00
+* avg_sigma: 1.023e+00
+------ newton step 1 ------
+   ====== contact_matrix_assembly ======
+   > dry_pass...0 msec
+   > rebuild...4 msec
+   > fillin_pass...0 msec
+   > finalize...2 msec
+   ===== contact_matrix_assembly: 6 msec =====
+* dyn_consumed: 0
+* max_nnz_row: 0
+* num_contact: 0
+> matrix_assembly...7 msec
