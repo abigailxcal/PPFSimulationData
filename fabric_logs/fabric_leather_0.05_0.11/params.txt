@@ -1,0 +1,8 @@
+name: leather_0.05_0.11
+dt: 0.003
+dyn_dt_change: 0.05
+strain-limit-eps: 0.11
+bend: 50
+area-density: 15000
+contact-ghat: 0.0004
+friction: 0.006
